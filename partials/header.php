@@ -45,10 +45,20 @@ $meta_robot = "index, follow";
     <a href="/">
       <img src="/assets/images/logo.svg" width="180" height="70" alt="Logo NWS">
     </a>
-    <button class="contrast outline" data-toggle="theme" aria-label="toggle theme mode">
-      <i data-feather="sun"></i>
-      <i data-feather="moon" hidden></i>
-    </button>
+    <ul>
+      <li>
+        <a href="/bdd">Accéder à la base de données</a>
+      </li>
+      <li>
+        <a href="/faq" role="button">Ajouter une destination</a>
+      </li>
+      <li>
+        <button class="contrast outline" data-toggle="theme" aria-label="toggle theme mode">
+          <i data-feather="sun"></i>
+          <i data-feather="moon" hidden></i>
+        </button>
+      </li>
+    </ul>
   </nav>
 </header>
 

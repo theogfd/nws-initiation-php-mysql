@@ -27,7 +27,7 @@ define("DB_PASS", "root");
  * Voir : https://www.php.net/manual/fr/pdo.construct.php
  */
 try {
-  $bdd = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME, DB_USER, DB_PASS);
+  $bdd = new PDO("mysql:host=".DB_HOST.";port=10011;dbname=".DB_NAME, DB_USER, DB_PASS);
   $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
   echo "Erreur de connexion : " . $e->getMessage();
